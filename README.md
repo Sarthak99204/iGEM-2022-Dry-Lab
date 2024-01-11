@@ -21,6 +21,7 @@ We represent our system using a set of four differential equations. The equation
 
 ### Parameters
 (Description of parameters and Table 1.1)
+![Table 1.1](https://static.igem.wiki/teams/4428/wiki/model/parameters-new.png)
 
 ## Results
 Simulation results display oscillations in the concentrations of different elements, confirming the concept of a lead-based oscillating biosensor.
@@ -29,7 +30,7 @@ Simulation results display oscillations in the concentrations of different eleme
 (a) Overall System Solution  
 (b) Variations in LuxI Concentration
 
-![Figure 1.2](https://static.igem.wiki/teams/4428/wiki/model/parameters-new.png)
+![Figure 1.2](https://static.igem.wiki/teams/4428/wiki/model/graphs-new.png)
 
 ## Analysis
 - Oscillation ranges for LuxI, AiiA, and both internal and external AHL are identified.
@@ -42,6 +43,8 @@ We define a sensitivity score to analyze parameter impacts and provide troublesh
 ### Sensitivity Analysis
 - τ (time delay constant) and d (cell density constant) are identified as critical parameters affecting oscillations.
 - Detailed results and analysis in Table 1.2.
+![Table 1.2](https://static.igem.wiki/teams/4428/wiki/model/sens-par-new.png)
+
 
 ## Conclusion
 The study provides computational proof for the functionality of the biosensor genetic circuit and offers guidance for future experimental setups.
