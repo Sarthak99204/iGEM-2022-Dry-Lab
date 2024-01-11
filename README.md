@@ -66,14 +66,20 @@ Our pipeline encompasses three main steps:
    - Proteins PbrR, PbrR MBD, and PbrR691 were modeled using SWISS-MODEL and UniProt.
    - Simulations were run in water to update protein structures.
 
+   ![Protein Structure](https://static.igem.wiki/teams/4428/wiki/model/pbrr-m-d.png)
+
 2. **Molecular Dynamics Simulations**:
    - Simulated in Desmond from Schrodinger for 100 nanoseconds.
    - Included a pre-simulation minimization phase of 100 picoseconds.
    - Final frames were downloaded for subsequent analysis.
 
+   ![Molecular Dynamics Simulation](https://static.igem.wiki/teams/4428/wiki/model/protein-s1.png)
+
 3. **Lead-Protein Complex Formation**:
    - Due to limitations with AutoDock, lead ions were manually added to the protein structures.
    - Binding sites were determined from existing literature.
+
+   ![Lead-Protein Complex](https://static.igem.wiki/teams/4428/wiki/model/protein-s1-l.png)
 
 ### Protein Structures
 
@@ -92,12 +98,23 @@ Our pipeline encompasses three main steps:
 
 1. **PbrR Monomer**: 
    - Specific details and visualization of RMSD curves.
+
+   ![RMSD Curve - PbrR Monomer](https://static.igem.wiki/teams/4428/wiki/model/rmsd-p.png)
+
 2. **PbrR Dimer**:
    - Analysis of RMSD values for overall stability.
+
+   ![RMSD Curve - PbrR Dimer](https://static.igem.wiki/teams/4428/wiki/model/rmsd-p-ii.png)
+
 3. **PbrR MBD**:
    - Examination of the stability of the lead binding pocket.
+
+   ![RMSD Curve - PbrR MBD](https://static.igem.wiki/teams/4428/wiki/model/rmsd-p-iii.png)
+
 4. **PbrR691**:
    - Stability analysis of lead ions within the binding pocket.
+
+   ![RMSD Curve - PbrR691](https://static.igem.wiki/teams/4428/wiki/model/rmsd-p-iv-new.png)
 
 ### Discussion
 
@@ -108,14 +125,15 @@ Our pipeline encompasses three main steps:
 
 1. **Mistakes in Existing Parts**:
    - **Part:BBa_K1701001**: Discrepancy in PbrR protein structure.
-   - **Part: BBa_K1958007**: Incorrect lead binding residues for PbrR.
+   - **Part:BBa_K1958007**: Incorrect lead binding residues for PbrR.
 
 ## Conclusion
 
 Our structural modeling and molecular simulation approach successfully identifies efficient proteins for lead recovery, paving the way for enhanced heavy metal recovery systems.
 
-[Link to Predicted Structure based on UniProt]
+## Additional Resources
+
+- [Link to Predicted Structure based on UniProt](https://static.igem.wiki/teams/4428/wiki/model/in-water.png)
+- [Project Presentation Video](https://video.igem.org/w/17KyQ265cULvUv8w6uEB2E)
 
 [Add any other relevant links or references]
-
-
