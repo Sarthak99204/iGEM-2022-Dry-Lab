@@ -48,3 +48,74 @@ We define a sensitivity score to analyze parameter impacts and provide troublesh
 
 ## Conclusion
 The study provides computational proof for the functionality of the biosensor genetic circuit and offers guidance for future experimental setups.
+
+
+# Lead Recovery System: Structural Modeling and Molecular Simulations
+
+## Overview
+
+Our project focuses on developing advanced lead recovery systems, addressing limitations like display efficiency, specificity, and binding affinity. We utilize structural modeling and molecular simulations to evaluate various lead-binding proteins, identifying the most efficient ones for lead recovery. Our pipeline extends to other metal ions, offering a versatile approach to heavy metal recovery systems.
+
+## Methodology
+
+### Detailed Plan
+
+Our pipeline encompasses three main steps:
+
+1. **Protein Structure Generation**: 
+   - Proteins PbrR, PbrR MBD, and PbrR691 were modeled using SWISS-MODEL and UniProt.
+   - Simulations were run in water to update protein structures.
+
+2. **Molecular Dynamics Simulations**:
+   - Simulated in Desmond from Schrodinger for 100 nanoseconds.
+   - Included a pre-simulation minimization phase of 100 picoseconds.
+   - Final frames were downloaded for subsequent analysis.
+
+3. **Lead-Protein Complex Formation**:
+   - Due to limitations with AutoDock, lead ions were manually added to the protein structures.
+   - Binding sites were determined from existing literature.
+
+### Protein Structures
+
+- **PbrR**: Modeled as both monomer and dimer; dimer structure based on homology with CdrR.
+- **PbrR MBD (Metal Binding Domain)**: Truncated sequence modeled to improve expression and reduce cellular stress.
+- **PbrR691**: Known for its selectivity; modeled based on X-ray diffraction data.
+
+### Simulation and Analysis
+
+- **Environment Simulation**: Lead-protein complexes simulated in a water environment for 100 nanoseconds.
+- **Stability Analysis**: RMSD and RMSF values were used to assess stability and binding efficacy.
+
+## Results and Analysis
+
+### RMSD Curves
+
+1. **PbrR Monomer**: 
+   - Specific details and visualization of RMSD curves.
+2. **PbrR Dimer**:
+   - Analysis of RMSD values for overall stability.
+3. **PbrR MBD**:
+   - Examination of the stability of the lead binding pocket.
+4. **PbrR691**:
+   - Stability analysis of lead ions within the binding pocket.
+
+### Discussion
+
+- **Dimer Structures**: Justification for using dimer structures based on binding pocket feasibility.
+- **Protein Surface Expression**: Analysis of protein dimerization and its implications for lead binding.
+
+## Miscellaneous
+
+1. **Mistakes in Existing Parts**:
+   - **Part:BBa_K1701001**: Discrepancy in PbrR protein structure.
+   - **Part: BBa_K1958007**: Incorrect lead binding residues for PbrR.
+
+## Conclusion
+
+Our structural modeling and molecular simulation approach successfully identifies efficient proteins for lead recovery, paving the way for enhanced heavy metal recovery systems.
+
+[Link to Predicted Structure based on UniProt]
+
+[Add any other relevant links or references]
+
+
